@@ -1,0 +1,14 @@
+Git Bash Commands:
+1. `git init` - Initialize local repository
+2. `git add <file_name>` - Stage the sample file
+3. `git commit -m "Initial commit: Adding sample file"` - Commit the changes
+4. `git remote add origin <GitHub_repository_URL>` - Link local repository to remote GitHub repository
+5. `git push -u origin master` - Push changes to GitHub (assuming default branch "master")
+
+
+
+Initialize your local repository: Open Git Bash and navigate to the directory where your sample file is located. Run the command git init to initialize a new Git repository in that directory.
+Add the file to the staging area: Run git add <file_name> (replace <file_name> with the actual name of your sample file) to stage the file for commit.
+Commit the changes: Run git commit -m "Initial commit: Adding sample file" (replace the commit message with a meaningful description of your changes) to commit the changes.
+Link your local repository to the remote GitHub repository: Run git remote add origin <GitHub_repository_URL> (replace <GitHub_repository_URL> with the URL of your GitHub repository) to link your local repository to the remote GitHub repository.
+Push the changes to GitHub: Run git push -u origin master (assuming your GitHub repository has a default branch named “master”) to push the changes to GitHub.
