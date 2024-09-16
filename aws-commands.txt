@@ -1,2 +1,37 @@
 Hello my name is Mahesh
 We are learning new things
+
+					What is Git
+1)Git is a distributed version control system used to track changes in files and coordinate work on projects among multiple people.
+2)Version Control: Git tracks changes to files, allowing developers to revert to previous versions, compare changes, and see who made specific modifications.
+3)Branching and Merging: Git allows easy branching, where developers can create independent lines of development, and later merge changes back into the main codebase.
+
+					Basic Commands:
+git status: Shows the current status of your working directory and staging area (e.g., which files have been modified, which files are staged for commit, etc.).
+git add [file_name]: Adds files to the staging area, preparing them for a commit. You can use git add . to stage all changes.
+git log: Displays the commit history of the repository.
+git diff: Shows differences between changes in your working directory and the last commit or between branches.
+git reset [commit]: Moves the current branch to the specified commit, optionally resetting the working directory and index.
+
+                                     Common Git Commands:
+git init: Initializes a new Git repository.
+git clone [url]: Creates a local copy of a remote repository.
+git commit: Records changes to the repository.
+git push: Uploads local changes to a remote repository.
+git pull: Fetches and merges changes from a remote repository to a local one.
+git branch: Lists branches or creates a new one.
+git merge: Combines changes from different branches.
+
+				Branching and Merging:
+git checkout [branch]: Switches to the specified branch. You can also use it to check out specific files.
+git branch [branch-name]: Creates a new branch.
+git branch -d [branch-name]: Deletes a branch.
+git merge [branch]: Merges another branch into the current branch.
+git rebase [branch]: Reapplies commits on top of another base commit (used for cleaner commit history).
+
+				Working with Remote Repositories:
+
+git remote: Manages remote repository connections.
+git fetch: Downloads changes from a remote repository without merging them into your working directory.
+git pull: Fetches and integrates changes from a remote repository (combines git fetch and git merge).
+git push [remote] [branch]: Pushes your commits to the remote repository.
