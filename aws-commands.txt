@@ -39,15 +39,21 @@ git merge: Combines changes from different branches.
 				Branching and Merging:
 
 git checkout [branch]: Switches to the specified branch. You can also use it to check out specific files.
+
 git branch [branch-name]: Creates a new branch.
+
 git branch -d [branch-name]: Deletes a branch.
+
 git merge [branch]: Merges another branch into the current branch.
+
 git rebase [branch]: Reapplies commits on top of another base commit (used for cleaner commit history).
 
 				Working with Remote Repositories:
 
 git fetch: Downloads changes from a remote repository without merging them into your working directory.
+
 git pull: Fetches and integrates changes from a remote repository (combines git fetch and git merge).
+
 git push [remote] [branch]: Pushes your commits to the remote repository.
 
 

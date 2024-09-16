@@ -1,0 +1,16 @@
+Git is a content tracker ,it store all our code changes and also distributed version control system. We can basically go back in time without losing any new changes. It will also used to rollback to previous versions of the programs, mostly used in the bug fixing in an application or software. It will also help you to know the information about the changes with time and date stamps as well.
+There are two repositories in Git:
+1)Local Repository
+2)Remote Repository
+
+1)Local Repository:
+it consist of three states that are
+i)Working area
+ii)Staging area
+iii)Committing area
+
+i)Working Area (Local): The actual directory where project files are located, where developers make changes and edits.
+
+ii)Staging Area (Index): An intermediate step between the Working Area and Local Repository, where files are “staged” to be included in the next commit.
+
+iii)Local Repository (.git directory): The core container for Git’s version control system, containing metadata, object database, and configuration information.     
