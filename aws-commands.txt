@@ -9,16 +9,26 @@ We are learning new things
 
 					Basic Commands:
 git status: Shows the current status of your working directory and staging area (e.g., which files have been modified, which files are staged for commit, etc.).
+
+git init: Initializes a new Git repository.
+
 git add [file name]: Adds files to the staging area, preparing them for a commit. You can use git add . to stage all changes.
+
+git commit: Records changes to the repository.
+
+git push: Uploads local changes to a remote repository.
+
 git log: Displays the commit history of the repository.
+
+git remote: Manages remote repository connections.
+
 git diff: Shows differences between changes in your working directory and the last commit or between branches.
+
 git reset [commit]: Moves the current branch to the specified commit, optionally resetting the working directory and index.
 
                                      Common Git Commands:
-git init: Initializes a new Git repository.
+
 git clone [url]: Creates a local copy of a remote repository.
-git commit: Records changes to the repository.
-git push: Uploads local changes to a remote repository.
 git pull: Fetches and merges changes from a remote repository to a local one.
 git branch: Lists branches or creates a new one.
 git merge: Combines changes from different branches.
@@ -32,7 +42,13 @@ git rebase [branch]: Reapplies commits on top of another base commit (used for c
 
 				Working with Remote Repositories:
 
-git remote: Manages remote repository connections.
 git fetch: Downloads changes from a remote repository without merging them into your working directory.
 git pull: Fetches and integrates changes from a remote repository (combines git fetch and git merge).
 git push [remote] [branch]: Pushes your commits to the remote repository.
+
+
+			Difference between Git & GitHub
+1) Git is an application/ Software but GitHub is an website.
+2)Git is local system GitHub is cloud based system.
+3)Git is an version control in a local system but GitHub is used to store git repository through online.
+4)GitHub is very useful to access the changes which are made by the Git in other systems but the local system must have the Git.
