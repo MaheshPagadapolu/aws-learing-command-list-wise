@@ -29,11 +29,15 @@ git reset [commit]: Moves the current branch to the specified commit, optionally
                                      Common Git Commands:
 
 git clone [url]: Creates a local copy of a remote repository.
+
 git pull: Fetches and merges changes from a remote repository to a local one.
+
 git branch: Lists branches or creates a new one.
+
 git merge: Combines changes from different branches.
 
 				Branching and Merging:
+
 git checkout [branch]: Switches to the specified branch. You can also use it to check out specific files.
 git branch [branch-name]: Creates a new branch.
 git branch -d [branch-name]: Deletes a branch.
