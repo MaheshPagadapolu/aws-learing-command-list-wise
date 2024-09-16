@@ -1,0 +1,39 @@
+					Git Life Cycle
+
+1. Working Directory (Untracked/Modified):
+
+Untracked files: When you create a new file in your working directory, Git doesn’t track it automatically. It's considered an untracked file.
+
+Modified files: When you make changes to an existing file that Git already tracks, it moves to the modified state.
+Commands related to this stage:
+
+git status: View the current state of the working directory (tracked/untracked files).
+git add <file>: Move a file to the staging area.
+
+
+2. Staging Area (Index):
+
+The staging area (or index) holds files that are marked for commit. When you add a file using git add, it moves from the working directory to the staging area, preparing it for the next commit.
+Commands related to this stage:
+
+git add <file>: Add changes to the staging area.
+git reset <file>: Remove a file from the staging area (but keep changes in the working directory).
+git status: Shows files in the staging area and modified/untracked files.
+
+
+3. Commit:
+
+A commit represents a snapshot of the project's staged changes. Once a file is committed, it moves into the Git repository and becomes part of the project's history.
+Commands related to this stage:
+
+git commit -m "message": Commit the staged changes with a message.
+git log: View the commit history.
+
+4. Remote Repository (Pushed):
+Once you’ve committed changes locally, you can push those changes to a remote repository, making them available to others or for backup.
+
+Commands related to this stage:
+
+git push: Send commits to the remote repository.
+git pull: Fetch and merge changes from the remote repository into your local repository.
+git fetch: Fetch changes from the remote repository without merging them.

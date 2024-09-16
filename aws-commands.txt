@@ -20,7 +20,7 @@ git push: Uploads local changes to a remote repository.
 
 git log: Displays the commit history of the repository.
 
-git remote: Manages remote repository connections.
+git remote add origin main: Manages remote repository connections.
 
 git diff: Shows differences between changes in your working directory and the last commit or between branches.
 
